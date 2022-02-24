@@ -51,7 +51,7 @@ INSTALLED_APPS = [
     'booking',
 ]
 
-GOOGLE_DRIVE_STORAGE_JSON_KEY_FILE = os.environ['GOOGLE_CREDENTIALS']
+GOOGLE_DRIVE_STORAGE_JSON_KEY_FILE = 'findmyplug/google-credentials.json'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
